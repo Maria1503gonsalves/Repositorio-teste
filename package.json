@@ -36,7 +36,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
-    "test": "jest",
+    "test": "node ./node_modules/jest/bin/jest.js",
     "build": "webpack --config webpack.config.js"
   }
 }
